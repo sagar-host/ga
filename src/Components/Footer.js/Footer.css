@@ -1,0 +1,273 @@
+
+
+
+
+
+#mainFooter{
+   
+    /* background-color: black !important; */
+    background: #fcfcfc !important;
+    /* font-family: sans-serif !important; */
+    /* border: 2px  red !important;  */
+
+    
+   
+    width: 100%;
+ 
+}
+.footer-menu{
+   
+  float: right;
+    margin-top: 0.2 vmax;
+   margin-right: 3vmax;
+   
+   
+    
+}
+.f-menu{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+   
+}
+.f-menu > li > a{
+    font-family: 'Nunito Sans';
+}
+
+.footer-menu > ul{
+    width: 20vmax;
+
+}
+.footer-menu > ul > li{
+    list-style-type: none;
+}
+
+.footer-menu > ul > li > a{
+    text-decoration: none;
+    color: rgba(161, 161, 161, 0.658);
+ 
+    font-size: large;
+    font-family: monospace;
+}
+.footer-menu > ul > li > a:hover{
+    color: black;
+}
+.icons{
+ height: 5vmax;
+ margin-left: 1.5vmax;
+}
+.socials{
+   
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+   
+    
+}
+.socials > li{
+    justify-items: center;
+    list-style-type: none;
+    
+}
+.socials > li >a {
+    color: rgb(8, 8, 8);
+    font-size: 25px;
+}
+.socials > li >a:hover {
+color: rgb(117, 216, 142);
+}
+
+
+.footer-bottom{
+   
+margin-left: 41.5vmax;
+  
+   width: 50vmax;
+  padding-bottom: 10px;
+   
+}
+.footer-bottom > p{
+    width: 25vmax;
+    font-size: larger;
+    display: inline;
+}
+.footer-bottom > p > a{
+    text-decoration: none;
+    color: black;
+    
+}
+.footerText{
+    font-family: 'Sacramento',cursive;
+    text-transform: none;
+    font-weight: 200 !important;
+    color: #08daf1 !important;
+    font-size: 3em !important;                                                
+  
+  
+ 
+  
+}
+
+
+
+
+
+@media only screen and (max-width:500px )  {
+
+    #mainFooter{
+        position: relative;
+    }
+
+
+    .footer-menu{
+        position: absolute;
+    left: 7.5vmax;
+     padding: 2vmax;
+     margin-top: 1vmax;
+     width: 5vmax;
+     height: 2vmax;
+          
+      }
+
+    .footer-menu ul{
+      display: flex;
+     flex-direction: row;
+     gap: 20px;
+     font-size: 18px;
+     padding: 5px;
+    
+     
+    }
+    
+    .icons {
+        height: 2vmax;
+        width: 5vmax;
+       position: absolute;
+       margin-top: 10vmax;
+      left: -3.5vmax;
+        
+    }
+    .socials{
+          
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+        
+      
+    } 
+    .socials > li >a {
+        color: rgb(8, 8, 8);
+        font-size: 22px;
+
+    }
+    /* .footer-bottom{
+        position: absolute;
+   
+        left: 2vmax;
+            height: 1vmax;
+           width: 20vmax;
+          
+           
+           
+        } */
+        .footer-bottom > p{
+            width: 24vmax;
+            font-size: medium;
+            font-size: 13px;
+            
+        }
+        .footer-bottom > h3{
+            position: relative;
+            font-size: 30px;
+          
+        }
+        
+        .footer-menu{
+        
+            margin-right: 34.25vmax;
+            padding: 2vmax;
+            margin-top: 1vmax;
+            width: 5vmax;
+            height: 2vmax;
+                 
+             }
+             .footer-bottom{
+                position: absolute;
+           
+                margin-left: 16vmax;
+                    height: 1vmax;
+                   width: 20vmax;
+                   margin-top: 18vmax;
+                   
+                   
+                }
+    }
+  @media only screen and (min-width:375px)  and (max-width:390px)  {
+
+        .footer-menu{
+        
+            margin-right: 45vmax;
+            padding: 0vmax;
+            margin-top: 1vmax;
+            width: 5vmax;
+            height: 2vmax;
+                 
+             }
+             .footer-bottom{
+                position: absolute;
+           
+                margin-left: 15vmax;
+                    height: 1vmax;
+                   width: 20vmax;
+                   margin-top: 18vmax;
+                   
+                   
+                }
+                .footer-bottom > p{
+                    position: absolute;
+                        left: 40px;
+                       bottom: -76px;
+                      
+                       margin: -18px;
+                       padding: 3px;
+                                    }
+                                    .footer-bottom > h3{
+                                        left: -37px;
+                                        position: absolute;
+                                                        }
+                                   
+
+    }
+
+    @media only screen and (min-width:414px)  and (max-width:420px)  {
+        .footer-bottom > p{
+            position: absolute;
+                left: 40px;
+               bottom: -76px;
+              
+               margin: -18px;
+               padding: 3px;
+                            }
+                            .footer-bottom > h3{
+                                left: -37px;
+                                position: absolute;
+                                                }
+                           
+
+}
+@media only screen and (min-width:390px)  and (max-width:400px)  {
+    .footer-bottom > p{
+        position: absolute;
+            left: 40px;
+           bottom: -76px;
+          
+           margin: -18px;
+           padding: 3px;
+                        }
+                        .footer-bottom > h3{
+                            left: -37px;
+                            position: absolute;
+                                            }
+                       
+
+}

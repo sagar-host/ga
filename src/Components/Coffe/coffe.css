@@ -1,0 +1,29 @@
+/* .cart{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+} */
+.btno  {
+   position: absolute !important;
+   left: 6vmax !important;
+   top: 10vmax !important;
+}
+.lotti{
+    position: absolute !important;
+   
+ left: 30vmax !important;
+}
+
+@media only screen and (max-width: 450px) {
+
+    .btno{
+        top: 62vh;
+        width: 45vh;
+        }
+        .lotti > div > div >svg {
+            width: 500px !important;
+            height: 500px !important;
+            margin: -12vmax;
+        }
+}

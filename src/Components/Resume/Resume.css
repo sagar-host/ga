@@ -1,0 +1,14 @@
+.imgco{
+   display: flex;
+
+   width: 50%;
+ 
+}
+.img-fluid{
+   justify-content: center;
+   justify-items: center;
+   align-items: center;
+}
+#img2{
+    margin-top: 9vmax;
+}

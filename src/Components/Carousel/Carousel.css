@@ -1,0 +1,31 @@
+.caro{
+   
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-self: center;
+    padding-top: 10vmax;
+    width: 800px;
+}
+.fie{
+  height: 500px !important;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .caro{
+        width: 375px;
+    }
+     .fie{
+      height: 220px !important;
+    }
+  }
+  .control-arrow{
+    background-color: rgba(13, 49, 167, 0.233) !important;
+  }
+  .carousel-status{
+    position: relative !important;
+    height: 0px;
+    width: 0px;
+  }
+  

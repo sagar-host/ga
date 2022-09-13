@@ -1,0 +1,107 @@
+.projectSection{
+   
+
+    display: flex;
+    justify-content: center;
+    /* flex-wrap: wrap; */
+   
+
+}
+.card1{
+    border: 3px solid rgba(243, 242, 242, 0.205) !important;
+    box-shadow: 2px 2px rgba(237, 238, 237, 0.5) !important;
+  
+}
+
+.text{
+    /* height: 4vmax; */
+ position: absolute;
+margin-top: 10vmax;
+}
+
+
+
+.picons{
+    border: 2px solid rgba(233, 232, 232, 0.336) !important;
+
+ /* background-color: whitesmoke !important; */
+ box-shadow: 5px 10px rgb(236, 236, 235);
+
+
+
+
+}
+
+.fa{
+    margin-left: 2vmax;
+}
+.fa-chevron-circle-up{
+margin-left: 4vmax !important;
+}
+.psocials{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    /* margin-right: 20vmax; */
+}
+
+.psocials > li{
+    justify-items: center;
+    list-style-type: none;
+    
+
+    
+}
+
+.psocials > li >a {
+    color: rgb(8, 8, 8);
+    font-size: 25px;
+    text-decoration: none;
+    
+ 
+}
+.psocials > li >a>i{
+    margin-left: 3vmax;
+}
+
+.psocials > li >a>i:hover {
+color: rgb(117, 216, 142);
+}
+
+
+.btn-primary {
+    color: rgb(0, 0, 0) !important;
+    background-color: #c9c9c9af !important;
+border-color: gainsboro !important;
+
+   
+}
+.btn-primary:hover { 
+    background-color: whitesmoke !important;
+    border-color: gainsboro !important;
+}
+
+.mainProjects{
+margin-top: 25vmax;
+display: flex;
+flex-wrap: wrap;
+/* height: 50vh; */
+
+gap: 30px;
+margin-bottom: 12vmax;
+justify-content: center;
+
+}
+
+@media screen and (max-width: 1200px) {
+  
+    .fa-github{
+        margin-left: 6vmax !important;
+    }
+    .fa-chevron-circle-up{
+    margin-left: 7.8vmax !important;
+    }
+    .picons{
+        padding: 1vmax;
+    }
+}

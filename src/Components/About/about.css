@@ -1,0 +1,130 @@
+
+
+#about{
+    background-color: #e9e9e9;
+    /* border: 2px solid blue; */
+ height: 93vh;
+ position: relative;
+padding: 50px;
+}
+.TER{
+    font-family: 'Tangerine', serif;
+	font-size: 35px;
+}
+.textAbout{
+    margin-top: 10vmax;
+
+}
+.textAbout{
+   
+    display: block;
+    text-align: left;
+}
+
+.textAbout > h2{
+   
+    -webkit-font-smoothing: antialiased;
+    font-family: Inter,sans-serif;
+    font-weight: 300;
+    width: 70%;
+    color: #aaa9a3;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: -.5px;
+    transition: opacity .2s;
+    font-size: 27px;
+}
+
+.darkText{
+    color: #32322e;
+    
+
+}
+.link-3{
+    opacity: .6;
+    transition: opacity 325ms;
+    color: #aaa9a3;
+
+    text-decoration: none;
+    font-family: Inter,sans-serif;
+    font-weight: 100;
+}
+a{
+    background-color: transparent;
+    cursor: pointer;
+}
+a:hover{
+    color: #32322e;
+
+
+}
+
+.cta.sec {
+    background-color: #dddcda;
+}
+
+.cta.inline {
+    margin-top: 25px;
+    margin-left: 0;
+}
+#secondLink{
+    color: #32322e;
+}
+#secondLink:hover{
+    background-color: #b3ebf2;
+}
+.cta {
+ 
+    margin-left: 10px;
+    padding-top: 12px;
+    padding-bottom: 11px;
+    border-radius: 3px;
+    background-color: #b3ebf2;
+    opacity: .8;
+    -webkit-transition: background-color .4s,padding .2s;
+    transition: background-color .4s,padding .2s;
+    font-family: Inter,sans-serif;
+    color: #32322e;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.w-button {
+   
+    display: inline-block;
+    padding: 9px 15px;
+   
+    color: #fff;
+    border: 0;
+    line-height: inherit;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 0;
+}
+
+@media screen and (max-width: 500px) {
+    #about{
+     height: 110vh;
+     
+    }
+    .textAbout{
+       
+       width: 100%;
+       text-align: center;
+       /* padding: 3svmax; */
+      
+       
+    }
+    .textAbout > h2{
+        width: 100%;
+        
+    }
+    
+    #secondLink {
+        margin-top: 10vmax;
+       margin-left: 8vmax;
+    }
+    
+
+}
