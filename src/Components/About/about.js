@@ -6,13 +6,7 @@ import "./about.css"
 
 function about() {
 
-  const ClickHandler = () => {
-    ReactGA.event({
-        category: 'Link',
-        action: 'Click the button from first page'
-      });
-    alert('Sending your IP address to server')
-}
+
 
   return (
     <div id='about'>
@@ -22,7 +16,7 @@ function about() {
 
     </div>
 
-    <Link onClick={ClickHandler} to="/resume" id='secondLink' className="cta inline sec w-button">Read about my past</Link>
+    <Link  to="/resume" id='secondLink' className="cta inline sec w-button">Read about my past</Link>
 
     </div>
   )

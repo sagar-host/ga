@@ -6,7 +6,7 @@ import Proute from "./Components/ProjectRoute/proute";
 import Resume from '../src/Components/Resume/Resume';
 import Contact from "./Components/Contact/contact";
 import Coffee from "./Components/Coffe/coffe";
-import ReactGA from 'react-ga';
+
 
 
 
@@ -15,15 +15,7 @@ import ReactGA from 'react-ga';
 
 function App() {
 
-  useEffect(() => {
-    ReactGA.initialize('G-MEKTVB0VK3');
-    // To Report Page View 
-    ReactGA.pageview(window.location.pathname + window.location.search);
-  }, [])
 
-  useEffect(() => {
-   console.log(window.location.pathname)
-  })
 
   return (
     <div className="App">
